@@ -1,0 +1,51 @@
+.blue-boxes{
+    color: aliceblue;
+    height: 800px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+   width: 600px;
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1c367d;
+    font-size: x-large;
+}
+.last{
+    width: 600px;
+    min-height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#1c367d;
+    font-size: x-large;
+}
+.wrap {
+    min-height: 30%;
+    display: flex;
+    margin: 15px 0px;
+}
+.middle{
+    background: #4d87ac;
+    font-size:large;
+    width: 190px;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.middle2{
+    background: #4d87ac;
+    font-size:large;
+    width: 190px;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0px 15px;
+}

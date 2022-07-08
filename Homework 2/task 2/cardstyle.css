@@ -1,0 +1,31 @@
+.main{
+    background: #f8d608;
+  height: 800px;
+}
+.box {
+    background: silver;
+    border: solid;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.box > h2{
+    text-align: center;
+    margin: 90px 0px 20px 0px;
+}
+.box > p{
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.butt{
+    height: 50px;
+}
+
+button{
+    width: 150px;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
