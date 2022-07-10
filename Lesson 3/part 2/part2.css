@@ -1,0 +1,10 @@
+ul:nth-child(even)>li:nth-child(even){
+    background: lightskyblue;
+}
+li{
+    transition: 1000ms;
+}
+li:hover{
+    transition: 500ms;
+    background: #f8d608;
+}

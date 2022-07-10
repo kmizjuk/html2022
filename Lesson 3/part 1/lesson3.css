@@ -1,0 +1,13 @@
+/*.father-1 li{*/
+/*    background: #f8d608;*/
+/*}*/
+.father-1{
+    background: #4d87ac;
+}
+.father-2{
+    width: 400px;
+
+}
+.father-1.father-2{
+    background: #08f8b0;
+}
