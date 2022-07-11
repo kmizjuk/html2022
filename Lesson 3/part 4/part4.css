@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    background: chartreuse;
+    margin: 0;
+    position: fixed;
+    right: 0;
+
+
+}
+.menu > li{
+    margin-left: 20px;
+}
+li:hover{
+    background: #f8d608;
+}

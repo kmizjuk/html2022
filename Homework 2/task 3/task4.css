@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background: #16aecb;
+}
+.box{
+    width: 400px;
+    height: 120px;
+    background: white;
+    border: solid silver 1px;
+    margin: 10px;
+    display: flex;
+
+}
+.text> h3{
+    color: #efcf0f;
+    margin: 10px 0px 0px 0px;
+}
+.text>p{
+    color: #555454;
+    margin-top: 5px;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main{
+    height: 800px;
+    display: flex;
+ justify-content:center;
+    align-items: center;
+}
+.icon{
+font-size: 40px;
+color: #e0cc43;
+margin: 40px 20px;}

@@ -1,0 +1,30 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: lightskyblue;
+    margin: 3px;
+}
+/*.box:nth-child(2){*/
+/*    background: #f8d608;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*}*/
+/*.box:nth-child(2){*/
+/*    background: #f8d608;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*position: relative;*/
+/*top: -70px;*/
+/*left: 40px;*/
+.inner{
+    width: 100px;
+    height: 100px;
+    background: #f8d608;
+    position: relative;
+top: -50px;
+    left: 50px;
+
+
+}
