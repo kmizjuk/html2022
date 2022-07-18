@@ -1,0 +1,47 @@
+.wrap{
+    width: 100%;
+    height: 100vh;
+}
+.Alone{
+    width: 100%;
+    height: 300px;
+    background: #eedd60;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.father{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-bottom: 8px;
+}
+.baby{
+    width: 70%;
+    height: 100%;
+    background: #4ebbe3;
+    border-radius: 5px;
+    margin-right: 8px;
+}
+.child{
+    width: 30%;
+    height: 100%;
+    background: #a8d9f3;
+    border-radius: 5px;
+}
+@media screen and (max-width:1200px) {
+  .father{
+      height: 700px;
+      flex-direction: column;
+      row-gap: 20px;}
+    .baby{
+        width: 100%;
+        height: 70% }
+    .child{
+        width: 100%;
+        height: 30%;
+    }
+    .Alone{
+        height: 20%;
+        margin-bottom: 20px;
+    }
+}

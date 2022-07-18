@@ -3,6 +3,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .box {
@@ -10,8 +11,10 @@
     width: 300px;
     height: 350px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     margin: 0px 20px;
+    position: relative;
 
 
 }
@@ -28,21 +31,20 @@
 .butt{
     height: 50px;
 }
-
+a{
+    text-decoration: none;
+}
 button{
     background: white;
     width: 170px;
     height: 100%;
-    align-items: center;
-    margin: 0 auto;
-    display: block;
 }
-.Rondo{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    position: relative;
-    top: 260px;
+button:hover{
+    background: #16aecb;
+    color: white;
+    transition: 200ms;
+    border: white;
+    cursor: pointer;
 }
 .icon{
     width: 80px;
@@ -55,6 +57,6 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-margin: 0px 130px;
+    position: absolute;
+    top: -40px;
 }
